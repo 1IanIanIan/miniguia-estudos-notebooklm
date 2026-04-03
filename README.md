@@ -1,6 +1,7 @@
 # miniguia-estudos-notebooklm
-#Projeto bootcamp Engenharia de prompt CI&T e DIO
-🚀 **Miniguia de Estudos: SQL no NotebookLM**
+**CRIADO POR IAN**,
+#Projeto bootcamp Engenharia de prompt CI&T e DIO,
+🚀 **Miniguia de Estudos: SQL no NotebookLM**,
 Status do Projeto: 📘 Em Desenvolvimento (Estudo e Revisão)
 
 Repositório dedicado ao armazenamento de notas, conceitos fundamentais e exercícios práticos sobre SQL. Este guia foi estruturado para servir como uma fonte de consulta rápida para revisão técnica, focado na preparação para estágios na área de Dados.
@@ -52,47 +53,17 @@ YouTube: SQLite Introduction - Fundamentos de bancos de dados.
 :
 
 📖 **Glossário de Conceitos SQL estudados**
-Este glossário reúne os termos fundamentais explorados neste repositório, organizados por categoria.
 
-🗄️ Estrutura e Definição (DDL - Data Definition Language)
-Database (Banco de Dados): Uma coleção organizada de dados estruturados que permite o armazenamento, recuperação e modificação eficiente de informações.
-
-Table (Tabela): A unidade básica de armazenamento. Composta por Linhas (registros) e Colunas (atributos).
-
-Schema: O "esqueleto" ou mapa do banco de dados, que define como as tabelas, colunas e relacionamentos são organizados.
-
-Primary Key (Chave Primária): Um identificador único para cada registro em uma tabela. Não pode haver dois registros com a mesma chave primária.
-
-Foreign Key (Chave Estrangeira): Uma coluna que estabelece um vínculo entre duas tabelas, apontando para a chave primária de outra tabela.
-
-🔍 Manipulação e Consulta (DML - Data Manipulation Language)
-Query (Consulta): Qualquer comando de solicitação de dados ao banco de dados (geralmente começando com SELECT).
-
-Clause (Cláusula): Palavras-chave que compõem uma query, como FROM, WHERE, ORDER BY e LIMIT.
-
-Filtering (Filtragem): O processo de restringir os resultados de uma consulta usando condições (ex: WHERE preco > 10).
-
-Null: Um marcador que indica que um dado está faltando ou é desconhecido. Importante: NULL não é zero nem uma string vazia.
-
-📊 Agregação e Relacionamentos
-Aggregate Functions (Funções de Agregação): Funções que realizam cálculos em várias linhas e retornam um único valor, como SUM (soma), AVG (média), COUNT (contagem), MAX e MIN.
-
-Grouping (Agrupamento): O uso da cláusula GROUP BY para resumir dados. Transforma várias linhas em uma só baseada em uma coluna comum.
-
-Join (Junção): A operação de combinar colunas de duas ou mais tabelas em um único resultado, baseada em uma coluna relacionada entre elas.
-
-Subquery (Subconsulta): Uma consulta "dentro" de outra consulta, usada para realizar cálculos intermediários ou filtros dinâmicos.
-
-Alias (Apelido): Um nome temporário dado a uma tabela ou coluna usando a palavra-chave AS, facilitando a leitura da query.
-
-🚦 Operadores Lógicos
-AND / OR: Operadores usados para combinar múltiplas condições no WHERE.
-
-IN: Verifica se um valor coincide com qualquer valor em uma lista ou resultado de subquery.
-
-LIKE / ILIKE: Usado para busca de padrões em texto (ex: nome LIKE 'Ana%' busca todos que começam com "Ana").
-
-BETWEEN: Filtra valores dentro de um intervalo inclusivo (ex: data BETWEEN '2023-01-01' AND '2023-12-31').
+_Exercícios Básicos,
+_GROUP BY,
+_HAVING,
+_WHERE,
+_INNER JOIN,
+_LEFT JOIN,
+_RIGHT JOIN,
+_INSERTS,
+_ALTER
+_CREATE
 
 📚 **Prompts:**
 **(1)**
@@ -324,3 +295,6 @@ Existem duas formas principais de fazer isso:
 *   **Ponto e vírgula:** No SQL, cada comando deve terminar com um `;` para indicar ao sistema que a instrução acabou.
 *   **Aspas simples:** Valores de texto (como 'Queijo') devem estar entre aspas simples, enquanto números não precisam.
 *   **Constraints:** Você pode adicionar regras às colunas, como `NOT NULL` (para tornar o preenchimento obrigatório) ou `PRIMARY KEY` (para garantir que aquele identificador seja único).
+
+
+**Este material foi organizado com o auxílio de IA para fins didáticos e de formatação**
