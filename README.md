@@ -1,4 +1,5 @@
 # miniguia-estudos-notebooklm
+#Projeto bootcamp Engenharia de prompt CI&T e DIO
 🚀 **Miniguia de Estudos: SQL no NotebookLM**
 Status do Projeto: 📘 Em Desenvolvimento (Estudo e Revisão)
 
@@ -6,6 +7,35 @@ Repositório dedicado ao armazenamento de notas, conceitos fundamentais e exerc�
 
 🎯 **Motivação**
 O objetivo principal deste repositório é consolidar o conhecimento em SQL através de curadoria de conteúdos e experimentação prática. A estrutura de tópicos foi desenhada para facilitar a revisão de conceitos que são frequentemente cobrados em entrevistas técnicas de dados.
+
+
+📑**O que é SQL?**
+SQL (Structured Query Language, ou Linguagem de Consulta Estruturada) é a linguagem padrão universal para interagir com Bancos de Dados Relacionais.
+
+Diferente de linguagens de programação procedurais (como Python ou Java), o SQL é declarativo: você diz ao sistema o que deseja obter, e não exatamente como o computador deve processar cada bit de memória para chegar lá.
+
+🧱 Os Pilares do SQL
+O aprendizado de SQL é geralmente dividido em quatro grandes grupos de comandos, essenciais para qualquer Analista de Dados:
+
+DQL (Data Query Language): O coração da análise. Comando principal: SELECT. É onde extraímos insights e filtramos informações.
+
+DDL (Data Definition Language): Onde definimos a estrutura. Comandos como CREATE, ALTER e DROP moldam as tabelas e colunas.
+
+DML (Data Manipulation Language): Onde lidamos com os dados em si. Comandos INSERT, UPDATE e DELETE para manter as informações atualizadas.
+
+DCL/TCL: Comandos de controle de acesso e transações, garantindo a segurança e a integridade dos dados.
+
+💡 Por que aprender SQL para Dados?
+Escalabilidade: Capaz de lidar com milhões de linhas onde o Excel travaria.
+
+Padrão de Mercado: Seja no PostgreSQL, MySQL, SQL Server ou BigQuery, a base do SQL permanece a mesma.
+
+Integração: É a ponte entre os dados brutos e as ferramentas de visualização (Power BI, Tableau) ou bibliotecas de Python (Pandas).
+
+
+🎯 **Dificuldades**
+
+Durante o desenvolvimento, a principal dificuldade foi simplificar conceitos altamente técnicos e gerar exercícios didáticos através do NotebookLM. Isso ocorreu devido ao caráter estritamente técnico das fontes primárias utilizadas. Como lição aprendida, a inclusão de referências mais visuais e explicativas (como vídeos do YouTube) pode otimizar a capacidade da IA de gerar respostas mais acessíveis e exercícios melhor estruturados
 
 📚 **Fontes de Estudo**
 PostgreSQL Documentation - Referência técnica oficial.
@@ -17,6 +47,52 @@ Pandas Cheat Sheet (PDF) - Para comparação de sintaxe entre SQL e Python.
 Dataset Chinook: Banco de dados clássico de exemplo (convertido para .txt).
 
 YouTube: SQLite Introduction - Fundamentos de bancos de dados.
+
+
+:
+
+📖 **Glossário de Conceitos SQL estudados**
+Este glossário reúne os termos fundamentais explorados neste repositório, organizados por categoria.
+
+🗄️ Estrutura e Definição (DDL - Data Definition Language)
+Database (Banco de Dados): Uma coleção organizada de dados estruturados que permite o armazenamento, recuperação e modificação eficiente de informações.
+
+Table (Tabela): A unidade básica de armazenamento. Composta por Linhas (registros) e Colunas (atributos).
+
+Schema: O "esqueleto" ou mapa do banco de dados, que define como as tabelas, colunas e relacionamentos são organizados.
+
+Primary Key (Chave Primária): Um identificador único para cada registro em uma tabela. Não pode haver dois registros com a mesma chave primária.
+
+Foreign Key (Chave Estrangeira): Uma coluna que estabelece um vínculo entre duas tabelas, apontando para a chave primária de outra tabela.
+
+🔍 Manipulação e Consulta (DML - Data Manipulation Language)
+Query (Consulta): Qualquer comando de solicitação de dados ao banco de dados (geralmente começando com SELECT).
+
+Clause (Cláusula): Palavras-chave que compõem uma query, como FROM, WHERE, ORDER BY e LIMIT.
+
+Filtering (Filtragem): O processo de restringir os resultados de uma consulta usando condições (ex: WHERE preco > 10).
+
+Null: Um marcador que indica que um dado está faltando ou é desconhecido. Importante: NULL não é zero nem uma string vazia.
+
+📊 Agregação e Relacionamentos
+Aggregate Functions (Funções de Agregação): Funções que realizam cálculos em várias linhas e retornam um único valor, como SUM (soma), AVG (média), COUNT (contagem), MAX e MIN.
+
+Grouping (Agrupamento): O uso da cláusula GROUP BY para resumir dados. Transforma várias linhas em uma só baseada em uma coluna comum.
+
+Join (Junção): A operação de combinar colunas de duas ou mais tabelas em um único resultado, baseada em uma coluna relacionada entre elas.
+
+Subquery (Subconsulta): Uma consulta "dentro" de outra consulta, usada para realizar cálculos intermediários ou filtros dinâmicos.
+
+Alias (Apelido): Um nome temporário dado a uma tabela ou coluna usando a palavra-chave AS, facilitando a leitura da query.
+
+🚦 Operadores Lógicos
+AND / OR: Operadores usados para combinar múltiplas condições no WHERE.
+
+IN: Verifica se um valor coincide com qualquer valor em uma lista ou resultado de subquery.
+
+LIKE / ILIKE: Usado para busca de padrões em texto (ex: nome LIKE 'Ana%' busca todos que começam com "Ana").
+
+BETWEEN: Filtra valores dentro de um intervalo inclusivo (ex: data BETWEEN '2023-01-01' AND '2023-12-31').
 
 📚 **Prompts:**
 **(1)**
